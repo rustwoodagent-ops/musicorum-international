@@ -663,8 +663,9 @@ a:hover {
 }
 
 .contact-visual img {
-    border-radius: var(--radius);
+    border-radius: 16px;
     box-shadow: var(--shadow-medium);
+    border: 4px solid white;
 }
 
 /* Footer */

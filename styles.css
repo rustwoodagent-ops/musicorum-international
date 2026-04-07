@@ -731,7 +731,7 @@ a:hover {
 .social-link {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     padding: 10px 20px;
     background: rgba(255,255,255,0.08);
     border-radius: var(--radius);
@@ -743,6 +743,11 @@ a:hover {
     background: rgba(201, 162, 39, 0.15);
     border-color: rgba(201, 162, 39, 0.3);
     color: var(--color-warm-gold);
+    transform: translateY(-2px);
+}
+
+.social-link svg {
+    flex-shrink: 0;
 }
 
 .footer-bottom {
